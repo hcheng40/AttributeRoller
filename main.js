@@ -19,8 +19,6 @@ class Player {
         }
     }
 
-    
-
     rollAttributes() {
         for (const key in this.attributes) {
             let results = diceRoller(4, 6);
